@@ -9,7 +9,7 @@ public class Persona {
 
 	private String nombre, web;//modificar private es opcional
 	private int edad; //debido a la clase lombok
-	
+	private String DIRECCION;
 	
 	public Persona(String nombre, String web, int edad) {
 		this.nombre = nombre;
